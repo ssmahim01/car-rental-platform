@@ -62,18 +62,18 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="flex gap-2 items-center">
           <img
-            className="w-10 h-10 md:w-8 md:h-8 rounded-xl"
+            className="md:w-8 md:h-8 w-9 h-9 rounded-xl"
             src="car-rental-96.png"
             alt="Logo of Car rental"
           />
-          <h2 className="text-2xl text-gray-800 font-bold">Car Rental</h2>
+          <h2 className="md:text-2xl text-lg text-gray-800 font-bold">Car Rental</h2>
         </div>
       </div>
       <div className="dropdown">
         <div
           tabIndex={0}
           role="button"
-          className="btn btn-ghost lg:hidden bg-cyan-500 text-white"
+          className="btn btn-ghost lg:hidden bg-violet-500 text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
